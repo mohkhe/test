@@ -1,0 +1,7 @@
+<OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/">
+  <ShortName>Encyclopedia Britannica</ShortName>
+  <Description>Britannica Online Encyclopedia</Description>
+  <Url type="text/html" method="get" template="http://www.britannica.com/bps/search?query={searchTerms}"/>
+  <Url type="application/rss+xml" template="http://www.britannica.com/opensearch?ct=eb&amp;start=0&amp;count=20&amp;query={searchTerms}" />
+  <Query role="example" searchTerms="elephant"/>
+</OpenSearchDescription>

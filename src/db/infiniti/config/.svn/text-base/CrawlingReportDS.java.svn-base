@@ -1,0 +1,53 @@
+package db.infiniti.config;
+
+import java.util.LinkedHashMap;
+
+public class CrawlingReportDS {
+
+	private int countCrawlingQueries;
+	private LinkedHashMap<String, String> queryNumberofItsResults;
+	private int numRepeatedLinks;
+
+	public CrawlingReportDS() {
+		super();
+		this.countCrawlingQueries = 0;
+		this.queryNumberofItsResults = new LinkedHashMap<String, String>();
+	}
+
+
+	public int getCountCrawlingQueries() {
+		return countCrawlingQueries;
+	}
+
+	public void setCountCrawlingQueries(int countCrawlingQueries) {
+		this.countCrawlingQueries = countCrawlingQueries;
+	}
+
+	public LinkedHashMap<String, String> getQueryNumberofItsResults() {
+		return queryNumberofItsResults;
+	}
+
+	public void setQueryNumberofItsResults(LinkedHashMap<String, String> queryNumberofItsResults) {
+		this.queryNumberofItsResults = queryNumberofItsResults;
+	}
+	
+	public void addQueryNumberofItsResults(String query, String noItsResults) {
+		this.queryNumberofItsResults.put(query, noItsResults);
+	}
+	
+	public void incNoCrawlingQueries() {
+		this.countCrawlingQueries = this.countCrawlingQueries+1;
+	}
+
+	public int getNumRepeatedLinks() {
+		return numRepeatedLinks;
+	}
+
+	public void setNumRepeatedLinks(int numRepeatedLinks) {
+		this.numRepeatedLinks = numRepeatedLinks;
+	}
+
+	public void incNoRepeatedLinks() {
+		this.countCrawlingQueries = this.countCrawlingQueries+1;
+	}
+}

@@ -1,0 +1,7 @@
+<OpenSearchDescription>
+  <ShortName>Slashdot</ShortName>
+  <Description>News for nerds, stuff that matters</Description>
+  <Url type="text/html" rel="results" template="http://slashdot.org/search.pl?sort=1&amp;query={searchTerms}&amp;op=stories"/>
+  <Url type="application/rss+xml" rel="results" template="http://slashdot.org/search.pl?sort=1&amp;query={searchTerms}&amp;op=stories&amp;content_type=rss"/>
+</OpenSearchDescription>
+

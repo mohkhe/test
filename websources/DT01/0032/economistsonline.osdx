@@ -1,0 +1,8 @@
+ <OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/">
+   <ShortName>Economists Online</ShortName>
+   <Description>showcases some of the world's leading institutions, their scholars and their academic publications and datasets</Description>
+  <Image height="16" width="16" type="image/x-icon">http://www.economistsonline.org/img/icon_tips.png</Image>
+   <Url type="application/rss+xml" template="http://www.economistsonline.org/rss/?q=TI%3D{searchTerms}"/>
+   <Url type="text/html" template="http://www.economistsonline.org/publications?q=TI%3D{searchTerms}&amp;lang=en"/>
+ </OpenSearchDescription>
+

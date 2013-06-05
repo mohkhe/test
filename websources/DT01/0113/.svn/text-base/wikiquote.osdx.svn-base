@@ -1,0 +1,6 @@
+<OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/">
+  <ShortName>Wikiquote</ShortName>
+  <Description>the free quote compendium that anyone can edit</Description>
+  <Url type="text/html" method="get" template="http://en.wikiquote.org/w/index.php?title=Special:Search&amp;search={searchTerms}" />
+  <Url type="application/x-suggestions+xml" method="get" template="http://en.wikiquote.org/w/api.php?action=opensearch&amp;format=xml&amp;search={searchTerms}&amp;namespace=0" />
+</OpenSearchDescription>

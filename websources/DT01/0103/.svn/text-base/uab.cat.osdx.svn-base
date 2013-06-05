@@ -1,0 +1,7 @@
+ <OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/">
+   <ShortName>UAB Digital Repository</ShortName>
+   <Description>Universitat Autonoma de Barcelona</Description>
+   <Url type="application/rss+xml" template="http://ddd.uab.cat/rss?ln=en&amp;as=1&amp;m1=a&amp;p1={searchTerms}&amp;f1=&amp;op1=a&amp;m2=a&amp;p2=&amp;f2=&amp;op2=a&amp;m3=a&amp;p3=&amp;f3=&amp;action_search=Search&amp;c=Dip%C3%B2sit+Digital+de+Documents+de+la+UAB&amp;sf=&amp;so=d&amp;rm=wrd&amp;rg=10&amp;sc=0&amp;of=hb"/>
+   <Url type="text/html" template="http://ddd.uab.cat/search?ln=en&amp;as=1&amp;m1=a&amp;p1={searchTerms}&amp;f1=&amp;op1=a&amp;m2=a&amp;p2=&amp;f2=&amp;op2=a&amp;m3=a&amp;p3=&amp;f3=&amp;action_search=Search&amp;c=Dip%C3%B2sit+Digital+de+Documents+de+la+UAB&amp;sf=&amp;so=d&amp;rm=wrd&amp;rg=10&amp;sc=0&amp;of=hb"/>
+ </OpenSearchDescription>
+

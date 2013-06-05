@@ -1,0 +1,6 @@
+<OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/">
+    <ShortName>Microsoft Academic</ShortName>
+    <Description>Microsoft Academic Search</Description>
+    <Url type="application/rss+xml" template="http://academic.research.microsoft.com/Rss?query={searchTerms}&amp;searchtype=0"/>
+    <Url type="text/html" template="http://academic.research.microsoft.com/Search?query={searchTerms}"/>
+</OpenSearchDescription>

@@ -1,0 +1,8 @@
+<OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/">
+  <ShortName>Nu.nl</ShortName>
+  <Description>Het laatste nieuws het eerst op nu.nl</Description>
+<Image height="16" width="16" type="image/x-icon">http://www.nu.nl/images/favicon.ico</Image>
+  <Url type="application/rss+xml" template="http://stable.ewi.utwente.nl/searchwrapper/search.php?engine=nu&amp;q={searchTerms}"/>
+  <Url type="application/rss+xml" template="http://www.nu.nl/feeds/rss/tag/{searchTerms}.rss"/>
+  <Url type="text/html" template="http://www.nu.nl/zoeken/?q={searchTerms}"/>
+</OpenSearchDescription> 

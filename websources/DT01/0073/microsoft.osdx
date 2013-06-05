@@ -1,0 +1,7 @@
+<OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/" xmlns:snipdex="http://www.snipdex.org/snipdex-opensearch/1.0/">
+   <ShortName>Microsoft</ShortName>
+   <Description>Microsoft Corporation: Software, Smartphones, Online, Games, Cloud Computing, IT Business Technology, Downloads</Description>
+   <Url type="text/html" template="http://search.microsoft.com/Results.aspx?q={searchTerms}&amp;x=0&amp;y=0&amp;mkt=en-US&amp;FORM=QBME1&amp;l=2&amp;refradio=0" snipdex:item_path="//div[contains(@id,'resultPg')]/ul/li[./div/a]"/>
+   <Query role="example" searchTerms="windows" />
+</OpenSearchDescription>
+

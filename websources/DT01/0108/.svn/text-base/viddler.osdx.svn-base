@@ -1,0 +1,8 @@
+<OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/" xmlns:snipdex="http://www.snipdex.org/snipdex-opensearch/1.0/">
+<ShortName>Viddler</ShortName>
+<Description>Viddler is a friendly video platform for professional and personal use.</Description>
+<Url type="text/html" template="http://www.viddler.com/explore/tags/{searchTerms}/" />
+<Url type="application/rss+xml" template="http://www.viddler.com/explore/tags/{searchTerms}/feed/" />
+<Query role="hint" searchTerms="video"/>
+</OpenSearchDescription>
+

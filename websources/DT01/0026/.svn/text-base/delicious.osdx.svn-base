@@ -1,0 +1,6 @@
+<OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/">
+  <ShortName>Delicious</ShortName>
+  <Description>The tastiest bookmarks on the web.</Description>
+  <Url type="application/rss+xml" template="http://feeds.delicious.com/v2/rss/tag/{searchTerms}"/>
+  <Url type="text/html" template="http://www.delicious.com/tag/{searchTerms}"/>
+</OpenSearchDescription> 

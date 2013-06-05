@@ -1,0 +1,6 @@
+<OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/" xmlns:ms-ose="http://schemas.microsoft.com/opensearchext/2009/">
+<ShortName>CCSB</ShortName>
+<Description>CCSB: The Collection of Computer Science Bibliographies</Description>
+<Url type="application/rss+xml" template="http://liinwww.ira.uka.de/bibliography/rss?query={searchTerms}&amp;sort=score"/>
+<Url type="text/html" template="http://liinwww.ira.uka.de/csbib/index?query={searchTerms}"/>
+</OpenSearchDescription> 

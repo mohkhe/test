@@ -1,0 +1,7 @@
+<OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/" xmlns:snipdex="http://www.snipdex.org/snipdex-opensearch/1.0/">
+  <ShortName>MeFeedia</ShortName>
+  <Description>Media Engine</Description>
+  <Url type="text/html" template="http://www.mefeedia.com/search/{searchTerms}" snipdex:item_path="//div[./div[contains(@class,'lcontent')]/div/a]" snipdex:title_path="./div/h3" snipdex:thumbnail_path="(.//img)[1]"/>
+ <!-- <Url type="application/rss+xml" template="http://www.mefeedia.com/search/{searchTerms}/rss"/> -->
+  <Query role="hint" searchTerms="video"/>
+</OpenSearchDescription> 

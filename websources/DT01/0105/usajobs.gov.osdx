@@ -1,0 +1,6 @@
+<OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/" xmlns:snipdex="http://www.snipdex.org/snipdex-opensearch/1.0/">
+  <ShortName>USAJobs</ShortName>
+  <Description>Working for America</Description>
+  <Image height="16" width="16" type="image/x-icon">http://media.newjobs.com/opm/favicon.ico</Image>
+  <Url type="text/html" template="http://www.usajobs.gov/JobSearch/Search/GetResults?keyword={searchTerms}" snipdex:item_path="//div[./h3/u/a]"/>
+</OpenSearchDescription>

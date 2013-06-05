@@ -1,0 +1,7 @@
+ <OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/">
+   <ShortName>KFUPM ePrints</ShortName>
+   <Description>King Fahd University of Petroleum and Minerals</Description>
+   <Url type="application/rss+xml" template="http://eprints.kfupm.edu.sa/cgi/search/simple/export_kfupmaid_RSS2.xml?exp=0|1|-date/creators_name/title|archive|-|q:_fulltext_/abstract/creators_name/date/title:ALL:IN:{searchTerms}|-|eprint_status:eprint_status:ALL:EQ:archive|metadata_visibility:metadata_visibility:ALL:EX:show&amp;output=RSS2&amp;_action_export=1&amp;screen=Public::EPrintSearch"/>
+   <Url type="text/html" template="http://eprints.kfupm.edu.sa/cgi/search/simple?q={searchTerms}&amp;_action_search=Search&amp;_order=bytitle&amp;basic_srchtype=ALL&amp;_satisfyall=ALL&amp;_action_search=Search"/>
+ </OpenSearchDescription>
+

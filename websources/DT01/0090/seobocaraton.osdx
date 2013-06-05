@@ -1,0 +1,6 @@
+<OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/" xmlns:snipdex="http://www.snipdex.org/snipdex-opensearch/1.0/">
+  <ShortName>SEO Blog</ShortName>
+  <Description>Blog About SEO In Boca Raton</Description>
+  <Url type="text/html" template="http://www.seobocaraton.com/seoblog/search.aspx?q={searchTerms}" />
+  <Url type="application/rss+xml" template="http://www.seobocaraton.com/seoblog/syndication.axd?q={searchTerms}" />
+</OpenSearchDescription>

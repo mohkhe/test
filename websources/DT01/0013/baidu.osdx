@@ -1,0 +1,8 @@
+<OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/" xmlns:snipdex="http://www.snipdex.org/snipdex-opensearch/1.0/">
+   <ShortName>百度</ShortName>
+   <Description>百度一下，你就知道</Description>
+   <Url type="text/html" template="http://www.baidu.com/s?wd={searchTerms}" snipdex:item_path="//table[.//h3/a]" snipdex:force_decode="gb2312"/>
+   <Query role="example" searchTerms="%B0%D9%B6%C8"/>
+   <Query role="hint" searchTerms="baidu"/>
+</OpenSearchDescription>
+

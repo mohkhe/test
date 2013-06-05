@@ -1,0 +1,6 @@
+<OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/" xmlns:snipdex="http://www.snipdex.org/snipdex-opensearch/1.0/">
+  <ShortName>Wikimedia Commons</ShortName>
+  <Description>a database of freely usable media files to which anyone can contribute</Description>
+  <Url type="text/html" method="get" template="http://commons.wikimedia.org/w/index.php?title=Special:Search&amp;search={searchTerms}" />
+  <Url type="application/x-suggestions+xml" method="get" template="http://commons.wikimedia.org/w/api.php?action=opensearch&amp;format=xml&amp;search={searchTerms}&amp;namespace=0|6|12|14|100|106" />
+</OpenSearchDescription>

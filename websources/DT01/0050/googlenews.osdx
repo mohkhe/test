@@ -1,0 +1,7 @@
+<OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/" xmlns:snipdex="http://www.snipdex.org/snipdex-opensearch/1.0/">
+  <ShortName>Google News</ShortName>
+  <Description>Google News is a computer-generated news site that aggregates headlines from news sources worldwide.</Description>
+  <Url type="application/rss+xml" template="http://news.google.com/news?q={searchTerms}&amp;num=10&amp;output=rss"/>
+  <Url type="text/html" template="http://news.google.com/search?q={searchTerms}&amp;prmd=ivns&amp;source=lnms&amp;tbs=nws:1&amp;ei=7pY-Tcj5HYOWOu3t8LoD&amp;sa=X&amp;oi=mode_link&amp;ct=mode&amp;cd=4&amp;ved=0CAwQ_AUoAw"/>
+  <Query role="hint" searchTerms="news"/>
+</OpenSearchDescription> 

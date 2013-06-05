@@ -1,0 +1,6 @@
+<OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/">
+  <ShortName>AcademicTransfer</ShortName>
+  <Description>The Dutch Academic Career Network</Description>
+  <Url type="application/rss+xml" template="http://www.academictransfer.com/search_results.xml/?q={searchTerms}&amp;sort=publ_start_date%20desc,%20score%20desc,%20id%20desc&amp;page=1&amp;lang=en"/>
+  <Url type="text/html" template="http://www.academictransfer.com/search_results/?q={searchTerms}&amp;sort=publ_start_date%20desc,%20score%20desc,%20id%20desc&amp;page=1&amp;lang=en"/>
+</OpenSearchDescription>

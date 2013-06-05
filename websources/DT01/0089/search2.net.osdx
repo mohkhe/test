@@ -1,0 +1,8 @@
+<OpenSearchDescription  xmlns:snipdex="http://www.snipdex.org/snipdex-opensearch/1.0/">
+  <ShortName>Search2</ShortName>
+  <Description>Search engine using Nutch</Description>
+  <Image height="16" width="16" type="image/x-icon">http://www.search2.net/img/favicon.ico</Image>
+  <Url type="text/html" template="http://www.search2.net/2011/search.jsp?lang=en&amp;query={searchTerms}"/>
+  <Url type="application/rss+xml" template="http://www.search2.net/2011/opensearch?query={searchTerms}&amp;hitsPerSite=2&amp;lang=en&amp;hitsPerPage=10"/>
+</OpenSearchDescription>
+

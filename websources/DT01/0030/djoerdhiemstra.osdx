@@ -1,0 +1,8 @@
+<OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/" xmlns:snipdex="http://www.snipdex.org/snipdex-opensearch/1.0/">
+   <ShortName>Djoerd Hiemstra</ShortName>
+   <Description>A bit of teaching, some research, shake well.</Description>
+   <Image height="16" width="16" type="image/x-icon">http://wwwhome.cs.utwente.nl/~hiemstra/images/tux.ico</Image>
+   <Url type="application/rss+xml" template="http://wwwhome.cs.utwente.nl/~hiemstra/?os={searchTerms}&amp;paged={startPage?}"/>
+   <Url type="text/html" template="http://wwwhome.cs.utwente.nl/~hiemstra/?s={searchTerms}&amp;paged={startPage?}"/>
+   <Url type="application/x-suggestions+json" template="http://wwwhome.cs.utwente.nl/~hiemstra/keywords.php?search={searchTerms}"/>
+</OpenSearchDescription>

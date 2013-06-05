@@ -1,0 +1,6 @@
+<OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/" xmlns:ms-ose="http://schemas.microsoft.com/opensearchext/2009/">
+<ShortName>arXiv.org</ShortName>
+<Description>Search publication at arXiv.org</Description>
+<Url type="application/atom+xml" template="http://export.arxiv.org/api/query?search_query=%22{searchTerms}%22&amp;start=0&amp;max_results=10"/>
+<Url type="text/html" template="http://arxiv.org/search?query=%22{searchTerms}%22&amp;searchtype=ft"/>
+</OpenSearchDescription> 

@@ -1,0 +1,7 @@
+<OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/" xmlns:snipdex="http://www.snipdex.org/snipdex-opensearch/1.0/">
+<ShortName>Digg</ShortName>
+<Description>The Latest News Headlines, Videos and Images</Description>
+<Image height="16" width="16" type="image/x-icon">http://cdn1.diggstatic.com/img/favicon.a015f25c.ico</Image>
+<Url type="text/html" template="http://digg.com/search?q={searchTerms}&amp;sort=diggs"/>
+<Url type="application/atom+xml" template="http://services.digg.com/2.0/search.search?query={searchTerms}&amp;sort=digg_count-desc&amp;type=rss"/>
+</OpenSearchDescription> 

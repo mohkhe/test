@@ -1,0 +1,6 @@
+<OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/" xmlns:snipdex="http://www.snipdex.org/snipdex-opensearch/1.0/">
+   <ShortName>Disney Family</ShortName>
+   <Description>Disney Family.com - Answers to everyday family life including recipes, entertainment, parenting, coupons, travel &amp; more</Description>
+   <Url type="text/html" template="http://family.go.com/search-familycom/{searchTerms}/" snipdex:item_path="//div[./div/h2/a]"/>
+</OpenSearchDescription>
+

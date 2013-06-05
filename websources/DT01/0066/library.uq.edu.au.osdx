@@ -1,0 +1,7 @@
+ <OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/">
+   <ShortName>UQ eSpace</ShortName>
+   <Description>University of Queensland, Australia</Description>
+   <Url type="application/rss+xml" template="http://espace.library.uq.edu.au/list/?cat=quick_filter&amp;sort_by=searchKey0&amp;search_keys[0]={searchTerms}&amp;tpl=2"/>
+   <Url type="text/html" template="http://espace.library.uq.edu.au/list/?cat=quick_filter&amp;sort_by=searchKey0&amp;search_keys[0]={searchTerms}"/>
+ </OpenSearchDescription>
+

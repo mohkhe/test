@@ -1,0 +1,7 @@
+<OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/" xmlns:snipdex="http://www.snipdex.org/snipdex-opensearch/1.0/">
+  <ShortName>VIAF</ShortName>
+  <Description>Virtual International Authority File</Description>
+  <Image height="16" width="16" type="image/x-icon">http://viaf.org/viaf/images/viaf.ico</Image>
+  <Url type="application/rss+xml" template="http://viaf.org/viaf/search?query=local.names+all+%22{searchTerms}%22&amp;maximumRecords=20&amp;stylesheet=xsl/results.xsl%20&amp;sortKeys=holdingscount&amp;http:accept=application/rss%2bxml"/>
+  <Url type="text/html" template="http://viaf.org/viaf/search?query=local.names+all+%22{searchTerms}%22&amp;stylesheet=/viaf/xsl/results.xsl&amp;sortKeys=holdingscount&amp;maximumRecords=20"/>
+</OpenSearchDescription>

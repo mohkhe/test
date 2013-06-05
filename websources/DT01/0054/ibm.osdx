@@ -1,0 +1,5 @@
+<OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/" xmlns:snipdex="http://www.snipdex.org/snipdex-opensearch/1.0/">
+  <ShortName>IBM</ShortName>
+  <Description>The IBM corporate home page, entry point to information about IBM products and services</Description>
+  <Url type="text/html" template="http://www.ibm.com/search/csass/search?sn=mh&amp;q={searchTerms}&amp;lang=en&amp;cc=us&amp;en=utf" snipdex:item_path="//h2[./a]" snipdex:summary_path="./following-sibling::p"/>
+</OpenSearchDescription> 

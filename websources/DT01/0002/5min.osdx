@@ -1,0 +1,8 @@
+<OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/" xmlns:snipdex="http://www.snipdex.org/snipdex-opensearch/1.0/">
+<ShortName>5min.com</ShortName>
+<Description>Find the best how to, instructional and DIY videos - Life Videopedia.</Description>
+<Url type="text/html" template="http://www.5min.com/Tag/{searchTerms}?CategoryID=0" />
+<Url type="application/rss+xml" template="http://www.5min.com/Rss/Search/{searchTerms}" snipdex:thumbnail_path="image/url" />
+<Query role="hint" searchTerms="video"/>
+</OpenSearchDescription>
+

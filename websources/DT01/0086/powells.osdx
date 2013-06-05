@@ -1,0 +1,6 @@
+<OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/">
+  <ShortName>Powell's books</ShortName>
+  <Description>Used, New, and Out of Print Books - We Buy and Sell</Description>
+  <Url type="application/rss+xml" template="http://xml.powells.com/search.rss?perpage=25&amp;sort=by_price&amp;title={searchTerms}&amp;=rss"/>
+  <Url type="text/html" template="http://www.powells.com/search/DTSearch/search?cgi=search/search/&amp;title={searchTerms}&amp;perpage=25&amp;sort=by_price"/>
+</OpenSearchDescription> 

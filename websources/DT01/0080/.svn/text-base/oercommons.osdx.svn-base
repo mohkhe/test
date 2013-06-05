@@ -1,0 +1,7 @@
+<OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/">
+  <ShortName>OER Commons</ShortName>
+  <Description>Open Educational Resources</Description>
+  <Image height="16" width="16" type="image/x-icon">http://www.oercommons.org/media/images/favicon.ico</Image>
+  <Url type="application/rss+xml" template="http://www.oercommons.org/search?feed=yes&amp;sort_on=overall_rating&amp;batch_size=20&amp;f.search={searchTerms}"/>
+  <Url type="text/html" template="http://www.oercommons.org/search?f.search={searchTerms}&amp;sort_on=overall_rating"/>
+</OpenSearchDescription> 

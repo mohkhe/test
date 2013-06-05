@@ -1,0 +1,8 @@
+<OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/" xmlns:snipdex="http://www.snipdex.org/snipdex-opensearch/1.0/">
+   <ShortName>LinkedIn Jobs</ShortName>
+   <Description>World's Largest Professional Network</Description>
+   <Url type="text/html" template="http://www.linkedin.com/jsearch?keywords={searchTerms}" snipdex:item_path="//li[./div/h2/a]" snipdex:title_path="./div/h2"/>
+   <Query role="hint" searchTerms="linkedin"/>
+   <Query role="hint" searchTerms="job"/>
+</OpenSearchDescription>
+

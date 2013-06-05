@@ -1,0 +1,6 @@
+<OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/">
+  <ShortName>TechRepublic</ShortName>
+  <Description>TechRepublic provides real world advice on how to make technology work in business.</Description>
+  <Url type="application/rss+xml" template="http://www.techrepublic.com/search?q={searchTerms}&amp;mode=rss"/>
+  <Url type="text/html" template="http://www.techrepublic.com/search?q={searchTerms}"/>
+</OpenSearchDescription>

@@ -1,0 +1,7 @@
+<OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/" xmlns:snipdex="http://www.snipdex.org/snipdex-opensearch/1.0/">
+  <ShortName>Google Videos</ShortName>
+  <Description>Search millions of videos from across the web.</Description>
+  <Url type="application/rss+xml" template="http://video.google.com/videosearch?q={searchTerms}&amp;hl=en&amp;biw=1280&amp;bih=824&amp;prmd=ivnsfd&amp;output=rss"/>
+  <Url type="text/html" template="http://www.google.com/search?q={searchTerms}&amp;hl=en&amp;biw=1280&amp;bih=824&amp;prmd=ivnsfd&amp;source=lnms&amp;tbs=vid:1&amp;ei=rKQ-Tf7ROMaDOq3gzLwL&amp;sa=X&amp;oi=mode_link&amp;ct=mode&amp;cd=3&amp;ved=0CBYQ_AUoAg"/>
+  <Query role="hint" searchTerms="video"/>
+</OpenSearchDescription> 

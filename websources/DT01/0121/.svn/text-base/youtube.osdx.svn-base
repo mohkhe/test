@@ -1,0 +1,10 @@
+ <OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/" xmlns:snipdex="http://www.snipdex.org/snipdex-opensearch/1.0/">
+   <ShortName>YouTube</ShortName>
+   <Description>YouTube is a place where you can discover, watch, upload and share videos.</Description>
+   <Url type="application/atom+xml" template="http://gdata.youtube.com/feeds/api/videos?q={searchTerms}&amp;orderby=relevance&amp;start-index=1&amp;max-results=10&amp;v=2" snipdex:summary_path="./media_group/media_description"/>
+   <Url type="text/html" template="http://www.youtube.com/results?search_query={searchTerms}&amp;hl=en"/>
+   <Query role="example" searchTerms="mouse"/>
+   <Query role="hint" searchTerms="video+of"/>
+   <Query role="hint" searchTerms="video"/>
+ </OpenSearchDescription>
+

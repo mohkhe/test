@@ -1,0 +1,7 @@
+<OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/">
+  <ShortName>MSDN</ShortName>
+  <Description>Microsoft Development, Subscriptions, Resources, and More</Description>
+  <Image height="16" width="16" type="image/x-icon">http://support.microsoft.com/favicon.ico</Image>
+  <Url type="application/rss+xml" template="http://social.msdn.microsoft.com/Search/en-US/feed?format=RSS&amp;Query={searchTerms}&amp;beta=0"/>
+  <Url type="text/html" template="http://social.msdn.microsoft.com/Search/en-US?query={searchTerms}&amp;beta=0&amp;ac=8"/>
+</OpenSearchDescription> 

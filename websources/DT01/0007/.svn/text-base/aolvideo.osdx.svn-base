@@ -1,0 +1,9 @@
+ <OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/" xmlns:snipdex="http://www.snipdex.org/snipdex-opensearch/1.0/">
+   <ShortName>AOL Video</ShortName>
+   <Description>Free Video Clips - Watch Videos Online at AOL Video</Description>
+   <Url type="text/html" template="http://www.aol.com/search/video/?q={searchTerms}" snipdex:item_path="//div[@id='vdosrchrsltCnt']/div[./ul/li/a]" snipdex:title_path=".//li[@class='title']/a" snipdex:thumbnail_path="(.//img)[1]"/>
+   <Query role="example" searchTerms="mouse"/>
+   <Query role="hint" searchTerms="video+of"/>
+   <Query role="hint" searchTerms="video"/>
+ </OpenSearchDescription>
+

@@ -1,0 +1,8 @@
+<OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/" xmlns:snipdex="http://www.snipdex.org/snipdex-opensearch/1.0/">
+   <ShortName>LinkedIn Blog</ShortName>
+   <Description>World's Largest Professional Network</Description>
+   <Url type="text/html" template="http://blog.linkedin.com/?s={searchTerms}" snipdex:item_path="//div[./h2/a]"/>
+   <Query role="hint" searchTerms="LinkedIn"/>
+   <Query role="hint" searchTerms="blog"/>
+</OpenSearchDescription>
+

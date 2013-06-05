@@ -1,0 +1,6 @@
+<OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/" xmlns:snipdex="http://www.snipdex.org/snipdex-opensearch/1.0/">
+  <ShortName>Starbucks</ShortName>
+  <Description>Starbucks Coffee Company</Description>
+  <Url type="text/html" method="get" template="http://www.starbucks.com/search?keywords={searchTerms}" snipdex:item_path="//li[./strong/a]"/>
+  <Query role="hint" searchTerms="coffee"/>
+</OpenSearchDescription>

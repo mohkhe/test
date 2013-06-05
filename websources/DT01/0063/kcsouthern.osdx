@@ -1,0 +1,7 @@
+<OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/" xmlns:snipdex="http://www.snipdex.org/snipdex-opensearch/1.0/">
+  <ShortName>KCS</ShortName>
+  <Description>Kansas City Southern Railroad</Description>
+  <Url type="text/html" method="get" template="http://www.kcsouthern.com/en-us/Results.aspx?k={searchTerms}"/>
+  <Url type="application/rss+xml" method="get" template="http://www.kcsouthern.com/en-us/_layouts/srchrss.aspx?k={searchTerms}&amp;s=All%20Sites&amp;u=&amp;start=1"/>
+  <Query role="hint" searchTerms="train"/>
+</OpenSearchDescription>

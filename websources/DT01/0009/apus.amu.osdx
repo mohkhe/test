@@ -1,0 +1,5 @@
+<OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/" xmlns:snipdex="http://www.snipdex.org/snipdex-opensearch/1.0/">
+  <ShortName>AMU</ShortName>
+  <Description>American Military University</Description>
+  <Url type="text/html" method="get" template="http://search.apus.edu/search?q={searchTerms}&amp;site=amu&amp;client=amu&amp;proxystylesheet=amu&amp;numgm=50&amp;output=xml_no_dtd" snipdex:item_path="//div//p[./a]" snipdex:summary_path="./following-sibling::table"/>
+</OpenSearchDescription>

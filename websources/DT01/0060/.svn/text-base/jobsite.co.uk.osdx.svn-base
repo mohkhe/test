@@ -1,0 +1,6 @@
+<OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/">
+  <ShortName>Jobsite</ShortName>
+  <Description>UK job search: our job is searching for your job</Description>
+  <Url type="application/rss+xml" template="http://www.jobsite.co.uk/cgi-bin/advsearch?rss_feed=1&amp;skill_include={searchTerms}&amp;location_within=20&amp;reqd_salary=ANY|&amp;search_currency_code=GBP&amp;search_single_currency_flag=N&amp;search_salary_type=A&amp;search_salary_low=ANY&amp;daysback=7&amp;scc=UK&amp;jobtype=E"/>
+  <Url type="text/html" template="http://www.jobsite.co.uk/cgi-bin/advsearch?search_type=quick&amp;location_within=20&amp;fp_skill_include={searchTerms}&amp;location_include=&amp;search_currency_code=GBP&amp;search_salary_type=A&amp;search_salary_low=ANY&amp;jobtype=E&amp;daysback=7"/>
+</OpenSearchDescription>

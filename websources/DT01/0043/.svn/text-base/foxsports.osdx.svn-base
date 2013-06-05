@@ -1,0 +1,7 @@
+<OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/">
+  <ShortName>Fox Sports</ShortName>
+  <Description>FOX Sports on MSN:  Sports News, Scores, Schedules, Videos and Fantasy Games</Description>
+  <Url type="application/rss+xml" template="http://multimedia.foxsports.com/urss?q={searchTerms}"/>
+  <Url type="text/html" template="http://msn.foxsports.com/search?sp_q={searchTerms}"/>
+  <Url type="application/suggestions+json" template="http://multimedia.foxsports.com/autocomplete?q={searchTerms}"/>
+</OpenSearchDescription>

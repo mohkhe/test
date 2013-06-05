@@ -1,0 +1,6 @@
+<OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/">
+  <ShortName>The Register</ShortName>
+  <Description>Sci/Tech News for the World</Description>
+  <Url type="application/atom+xml" template="http://feed.theregister.co.uk/atom?q={searchTerms}"/>
+  <Url type="text/html" template="http://search.theregister.co.uk/?q={searchTerms}"/>
+</OpenSearchDescription> 

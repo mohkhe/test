@@ -1,0 +1,7 @@
+ <OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/">
+   <ShortName>CERN Documents</ShortName>
+   <Description>Over 1,000,000 bibliographic records on particle physics and related areas.</Description>
+   <Url type="application/rss+xml" template="http://cdsweb.cern.ch/rss?ln=en&amp;sc=1&amp;p={searchTerms}&amp;f=&amp;action_search=Search&amp;c=Articles+%26+Preprints&amp;c=Books+%26+Proceedings&amp;c=Presentations+%26+Talks&amp;c=Periodicals+%26+Progress+Reports&amp;c=Multimedia+%26+Outreach"/>
+   <Url type="text/html" template="http://cdsweb.cern.ch/search?ln=en&amp;sc=1&amp;p={searchTerms}&amp;f=&amp;action_search=Search&amp;c=Articles+%26+Preprints&amp;c=Books+%26+Proceedings&amp;c=Presentations+%26+Talks&amp;c=Periodicals+%26+Progress+Reports&amp;c=Multimedia+%26+Outreach"/>
+ </OpenSearchDescription>
+

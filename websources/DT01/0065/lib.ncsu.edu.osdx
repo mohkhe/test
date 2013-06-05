@@ -1,0 +1,7 @@
+<OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/">
+    <ShortName>NCSU Library Catalog</ShortName>
+    <Description>Search the library of the North Carolina State University</Description>
+  <Image height="16" width="16" type="image/x-icon">http://www.lib.ncsu.edu/favicon.ico</Image>
+    <Url type="application/rss+xml" template="http://www.lib.ncsu.edu/catalogws/?service=search&amp;query={searchTerms}&amp;output=opensearch"/>
+    <Url type="text/html" template="http://www2.lib.ncsu.edu/catalog/?Nty=1&amp;N=0&amp;Ntt={searchTerms}&amp;Ntk=Keyword"/>
+</OpenSearchDescription>

@@ -1,0 +1,6 @@
+<OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/" xmlns:snipdex="http://www.snipdex.org/snipdex-opensearch/1.0/">
+   <ShortName>IMDb</ShortName>
+   <Description>The Internet Movie Database</Description>
+   <Url type="text/html" template="http://www.imdb.com/find?s=all&amp;q={searchTerms}" snipdex:item_path="//tr[./td/a]" snipdex:title_path="(.//a)[2]" snipdex:link_path="(.//a)[1]/@href" snipdex:thumbnail_path="(.//img)[1]"/>
+</OpenSearchDescription>
+

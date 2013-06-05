@@ -1,0 +1,9 @@
+ <OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/" xmlns:snipdex="http://www.snipdex.org/snipdex-opensearch/1.0/">
+   <ShortName>DeviantArt</ShortName>
+   <Description>Where ART meets application!</Description>
+   <Url type="application/rss+xml" template="http://backend.deviantart.com/rss.xml?q=boost%3Apopular+{searchTerms}&amp;type=deviation&amp;offset=0"/>
+   <Url type="text/html" template="http://browse.deviantart.com/?qh=&amp;section=&amp;q={searchTerms}"/>
+   <Query role="hint" searchTerms="image"/>
+   <Query role="hint" searchTerms="picture"/>
+ </OpenSearchDescription>
+        

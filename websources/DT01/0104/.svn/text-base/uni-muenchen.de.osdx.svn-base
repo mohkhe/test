@@ -1,0 +1,6 @@
+<OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/">
+<ShortName>MPRA</ShortName>
+<Description>Munich Personal RePEc Archive - Universitaetsbibliothek Muenchen</Description>
+<Url type="application/rss+xml" template="http://mpra.ub.uni-muenchen.de/cgi/search/simple/export_mpra_RSS2.xml?exp=0|1|-date/creators_name/title|archive|-|meta:abstract/creators_name/title:ALL:IN:{searchTerms}|-|eprint_status:eprint_status:ALL:EQ:archive|metadata_visibility:metadata_visibility:ALL:EX:show&amp;output=RSS2&amp;_action_export=1&amp;screen=Public::EPrintSearch"/>
+<Url type="text/html" template="http://mpra.ub.uni-muenchen.de/cgi/search/simple?meta={searchTerms}&amp;full=&amp;_action_search=Search!&amp;_order=bytitle&amp;basic_srchtype=ALL&amp;_satisfyall=ALL"/>
+</OpenSearchDescription> 

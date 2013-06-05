@@ -1,0 +1,7 @@
+<OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/" xmlns:snipdex="http://www.snipdex.org/snipdex-opensearch/1.0/">
+   <ShortName>Apple</ShortName>
+   <Description>Apple designs and creates iPod and iTunes, Mac laptop and desktop computers, the OS X operating system, and the revolutionary iPhone and iPad</Description>
+   <Url type="text/html" template="http://www.apple.com/search/?q={searchTerms}&amp;section=global"/>
+   <Url type="application/xml" template="http://www.apple.com/global/nav/scripts/shortcuts.php?q={searchTerms}&amp;section=global&amp;transport=xml" snipdex:item_path="//match" snipdex:title_path="@title" snipdex:link_path="@url" snipdex:summary_path="@copy" snipdex:tumbnail_path="@image" snipdex:attribute_paths="Category{@category}"/>
+</OpenSearchDescription>
+

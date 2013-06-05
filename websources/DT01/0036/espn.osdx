@@ -1,0 +1,6 @@
+<OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/">
+  <ShortName>ESPN</ShortName>
+  <Description>The Worldwide Leader In Sports</Description>
+  <Url type="application/rss+xml" template="http://search.espn.go.com/rss/{searchTerms}"/>
+  <Url type="text/html" template="http://search.espn.go.com/results?searchString={searchTerms}&amp;page=null&amp;fromForm=true"/>
+</OpenSearchDescription> 

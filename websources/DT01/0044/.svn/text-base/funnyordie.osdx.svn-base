@@ -1,0 +1,9 @@
+<OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/" xmlns:snipdex="http://www.snipdex.org/snipdex-opensearch/1.0/">
+<ShortName>Funny or Die</ShortName>
+<Description>Funny Videos, Funny Pictures, and Funny Jokes</Description>
+<Url type="text/html" template="http://www.funnyordie.com/search/a?q={searchTerms}&amp;x=0&amp;y=0"/>
+<Url type="application/rss+xml" template="http://www.funnyordie.com/search/a?format=rss&amp;q={searchTerms}&amp;x=0&amp;y=0"/>
+<Query role="example" searchTerms="kitten"/>
+<Query role="hint" searchTerms="video"/>
+</OpenSearchDescription>
+

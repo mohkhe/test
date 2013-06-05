@@ -1,0 +1,6 @@
+<OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/">
+    <ShortName>CiteULike</ShortName>
+    <Description>Everyone's library</Description>
+    <Url type="application/rss+xml" template="http://www.citeulike.org/rss/search/all?q={searchTerms}"/>
+    <Url type="text/html" template="http://www.citeulike.org/search/all?q={searchTerms}"/>
+</OpenSearchDescription>

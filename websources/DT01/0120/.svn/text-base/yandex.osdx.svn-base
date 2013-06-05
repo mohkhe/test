@@ -1,0 +1,7 @@
+<OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/" xmlns:snipdex="http://www.snipdex.org/snipdex-opensearch/1.0/">
+  <ShortName>Яндекс</ShortName>
+  <Description>поисковая система и интернет-портал</Description>
+  <Url type="text/html" template="http://yandex.ru/yandsearch?text={searchTerms}&amp;lr=118" snipdex:item_path="//li[./div/h2/a]"/>
+  <Url type="application/x-suggestions+json" template="http://suggest.yandex.net/suggest-ff.cgi?part={searchTerms}"/>
+  <Query role="hint" searchTerms="yandex"/>
+</OpenSearchDescription>

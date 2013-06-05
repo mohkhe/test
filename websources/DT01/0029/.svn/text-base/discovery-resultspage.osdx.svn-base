@@ -1,0 +1,6 @@
+<OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/" xmlns:snipdex="http://www.snipdex.org/snipdex-opensearch/1.0/">
+  <ShortName>Discovery Channel Store</ShortName>
+  <Description>Collectibles from Discovery TV Series, DVDs, T-shirts, Games &amp; More</Description>
+  <Url type="text/html" method="get" template="http://discovery.resultspage.com/search?p=Q&amp;lbc=discovery&amp;ts=custom&amp;w={searchTerms}&amp;af=&amp;isort=score&amp;method=and&amp;v=discovery&amp;view=list" snipdex:item_path="//table[.//td/@class='listing']" snipdex:title_path="(.//a)[2]" snipdex:thumbnail_path="(.//img)[1]" snipdex:attribute_paths="Price{(.//a)[3]}"/>
+  <Query role="hint" searchTerms="discovery"/>
+</OpenSearchDescription>

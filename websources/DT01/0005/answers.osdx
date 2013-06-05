@@ -1,0 +1,6 @@
+<OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/">
+  <ShortName>Answers.com</ShortName>
+  <Description>WikiAnswers: Questions and Answers from the Community</Description>
+  <Url type="application/rss+xml" template="http://wiki.answers.com/Q/Special:RSS&amp;words={searchTerms}&amp;answered=true"/>
+  <Url type="text/html" template="http://wiki.answers.com/Q/Special:Search&amp;search={searchTerms}&amp;limitn=old"/>
+</OpenSearchDescription> 

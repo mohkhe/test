@@ -1,0 +1,6 @@
+<OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/" xmlns:snipdex="http://www.snipdex.org/snipdex-opensearch/1.0/">
+    <ShortName>SpringerLink</ShortName>
+    <Description>Academic journals, books and online media at Springer.</Description>
+    <Url type="application/rss+xml" template="http://www.springerlink.com/content/?k=ti%3a%28{searchTerms}%29&amp;export=rss"/>
+    <Url type="text/html" template="http://www.springerlink.com/content/?k=ti%3a%28{searchTerms}%29&amp;sort=p_OnlineDate&amp;sortorder=desc"/>
+</OpenSearchDescription>

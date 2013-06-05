@@ -1,0 +1,6 @@
+<OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/">
+  <ShortName>CiteSeerX</ShortName>
+  <Description>Scientific Literature Digital Library and Search Engine</Description>
+  <Url type="application/rss+xml" template="http://citeseerx.ist.psu.edu/search?q={searchTerms}&amp;sort=rlv&amp;feed=rss"/> 
+  <Url type="text/html" template="http://citeseerx.ist.psu.edu/search?q={searchTerms}&amp;start=&amp;sort=citeq=mapreduce&amp;start=&amp;sort=cite"/>
+</OpenSearchDescription>

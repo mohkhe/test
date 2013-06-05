@@ -1,0 +1,8 @@
+<OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/" xmlns:snipdex="http://www.snipdex.org/snipdex-opensearch/1.0/">
+<ShortName>Hulu</ShortName>
+<Description>Watch your favorites. Anytime. For free.</Description>
+<Url type="text/html" template="http://www.hulu.com/search?query={searchTerms}&amp;sort_by=relevance&amp;st=1"/>
+<Url type="application/rss+xml" template="http://www.hulu.com/feed/search?fs=0&amp;query={searchTerms}&amp;sort_by=relevance&amp;st=1"/>
+<Query role="hint" searchTerms="video"/>
+</OpenSearchDescription>
+

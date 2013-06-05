@@ -1,0 +1,7 @@
+<OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/">
+  <ShortName>Markt Plaza</ShortName>
+  <Description>Gratis adverteren</Description>
+  <Image height="16" width="16" type="image/x-icon">http://www.marktplaza.nl/favicon.png</Image>
+  <Url type="application/rss+xml" template="http://www.marktplaza.nl/rss/?q={searchTerms}"/>
+  <Url type="text/html" template="http://www.marktplaza.nl/zoeken/?q={searchTerms}"/>
+</OpenSearchDescription>

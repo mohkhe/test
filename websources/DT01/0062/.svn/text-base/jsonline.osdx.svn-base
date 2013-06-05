@@ -1,0 +1,6 @@
+<OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/" xmlns:snipdex="http://www.snipdex.org/snipdex-opensearch/1.0/">
+  <ShortName>JSOnline</ShortName>
+  <Description>Milwaukee, Wisconsin Journal Sentinel</Description>
+  <Url type="text/html" method="get" template="http://search.jsonline.com/Search.aspx?k={searchTerms}&amp;s.x=0&amp;s.y=0" snipdex:item_path="//div[./div[contains(@class,'searchResult')]/a]"/>
+  <Query role="hint" searchTerms="news"/>
+</OpenSearchDescription>

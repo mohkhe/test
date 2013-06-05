@@ -1,0 +1,7 @@
+<OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/" xmlns:snipdex="http://www.snipdex.org/snipdex-opensearch/1.0/">
+  <ShortName>University of Twente Publications</ShortName>
+  <Description>Publications of UTwente scientific staff, in many cases publicly available.</Description>
+  <Image height="16" width="16" type="image/x-icon">http://www.utwente.nl/repository/utwente/dottwente/img/favicon.ico</Image>
+  <Url type="application/rss+xml" template="http://doc.utwente.nl/cgi/search/advanced/export_so_RSS2.xml?screen=Public%3A%3AEPrintSearch&amp;_action_export=1&amp;output=RSS2&amp;exp=0|1|-date%2Fcreators_name%2Ftitle|archive|-|title%3Atitle%3AALL%3AIN%3A{searchTerms}|-|eprint_status%3Aeprint_status%3AALL%3AEQ%3Aarchive|metadata_visibility%3Ametadata_visibility%3AALL%3AEX%3Ashow" snipdex:thumbnail_path="media:content"/>
+  <Url type="text/html" method="post" template="http://doc.utwente.nl/cgi/search/advanced?screen=Public%3A%3AEPrintSearch&amp;title_merge=ALL&amp;title={searchTerms}&amp;order=-date%2Fcreators_name%2Ftitle&amp;_action_search=Search"/>
+</OpenSearchDescription>

@@ -1,0 +1,6 @@
+<OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/">
+<ShortName>Organic Eprints</ShortName>
+<Description>Organic Eprints is an international open access archive for papers related to research in organic agriculture.</Description>
+<Url type="application/atom+xml" template="http://orgprints.org/cgi/search/simple/export_orgprints_Atom.xml?screen=Public%3A%3AEPrintSearch&amp;_action_export=1&amp;output=Atom&amp;exp=0|1|-date%2Fcreators_name%2Ftitle|archive|-|keywords%3Aabstract%2Faddtitle%2Fengabstract%2Fkeywords%2Ftitle%3AALL%3AIN%3A{searchTerms}|-|eprint_status%3Aeprint_status%3AALL%3AEQ%3Aarchive|metadata_visibility%3Ametadata_visibility%3AALL%3AEX%3Ashow&amp;n="/>
+<Url type="text/html" template="http://orgprints.org/cgi/search/simple?screen=Public%3A%3AEPrintSearch&amp;keywords_merge=ALL&amp;keywords={searchTerms}&amp;person_merge=ALL&amp;person=&amp;year=&amp;full_merge=ALL&amp;full=&amp;satisfyall=ALL&amp;order=-date%2Fcreators_name%2Ftitle&amp;_action_search=Search"/>
+</OpenSearchDescription> 

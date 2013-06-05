@@ -1,0 +1,7 @@
+<OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/" xmlns:snipdex="http://www.snipdex.org/snipdex-opensearch/1.0/">
+   <ShortName>Myspace</ShortName>
+   <Description>Your favorite music, movies, stars, and tv</Description>
+   <Url type="text/html" template="http://www.myspace.com/search/People?q={searchTerms}" />
+   <Url type="application/xml" template="http://api.myspace.com/opensearch/people?format=xml&amp;searchTerms={searchTerms}" snipdex:item_path="//entry" snipdex:title_path="displayName" snipdex:link_path="profileUrl" snipdex:summary_path="msUserType" snipdex:thumbnail_path="thumbnailUrl" snipdex:attribute_paths="Location{location},Updated{updated}"/>
+</OpenSearchDescription>
+

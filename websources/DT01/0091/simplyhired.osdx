@@ -1,0 +1,6 @@
+<OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/">
+  <ShortName>Simply Hired</ShortName>
+  <Description>Job search made simple</Description>
+  <Url type="application/rss+xml" template="http://www.simplyhired.com/a/job-feed/rss/q-{searchTerms}"/>
+  <Url type="text/html" template="http://www.simplyhired.com/a/jobs/list/q-{searchTerms}"/>
+</OpenSearchDescription>

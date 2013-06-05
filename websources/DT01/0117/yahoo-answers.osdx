@@ -1,0 +1,7 @@
+<OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/">
+  <ShortName>Yahoo Answers</ShortName>
+  <Description>Discover the Best Answers chosen by the Community</Description>
+  <Image height="16" width="16" type="image/x-icon">http://l.yimg.com/a/i/us/sch/gr/answers_favicon.ico</Image>
+  <Url type="application/rss+xml" template="http://answers.yahoo.com/rss/search?p={searchTerms}&amp;orderby=rank"/>
+  <Url type="text/html" template="http://answers.yahoo.com/search/search_result?scope=all&amp;category=0&amp;fltr=_en&amp;question_status=all&amp;answer_count=any&amp;date_submitted=all&amp;p={searchTerms}&amp;orderby=rank&amp;filter_search=true"/>
+</OpenSearchDescription>

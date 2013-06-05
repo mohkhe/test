@@ -1,0 +1,7 @@
+<OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/" xmlns:snipdex="http://www.snipdex.org/snipdex-opensearch/1.0/">
+  <ShortName>Picasa</ShortName>
+  <Description>Share photos with friends and family... or explore public photos</Description>
+  <Url type="text/html" template="http://picasaweb.google.com/lh/view?q={searchTerms}&amp;psc=G&amp;filter=1#"/>
+  <Url type="application/atom+xml" template="http://picasaweb.google.com/data/feed/api/all?q={searchTerms}&amp;start-index=1&amp;max-results=10"/>
+  <Query role="hint" searchTerms="image"/>
+</OpenSearchDescription> 

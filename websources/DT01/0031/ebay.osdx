@@ -1,0 +1,6 @@
+<OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/" xmlns:snipdex="http://www.snipdex.org/snipdex-opensearch/1.0/"> 
+ <ShortName>eBay</ShortName>
+ <Description>New and used electronics, cars, apparel, collectibles...</Description>
+ <Url type="text/html" template="http://www.ebay.com/sch/i.html?_from=R40&amp;_nkw={searchTerms}&amp;_sacat=See-All-Categories" snipdex:item_path="//div[@class='lview']/table[.//tr/td/a]" snipdex:title_path="(.//a)[2]" snipdex:thumbnail_path="(.//img)[1]" snipdex:attribute_paths="Price{.//div[@itemprop='price']}"/>
+ <!-- <Url type="application/rss+xml" template="http://www.ebay.com/-1/i.html?rt=nc&amp;_nkw={searchTerms}&amp;_rss=1"/> -->
+</OpenSearchDescription>

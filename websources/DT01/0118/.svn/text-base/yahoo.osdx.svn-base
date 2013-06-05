@@ -1,0 +1,7 @@
+<OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/" xmlns:snipdex="http://www.snipdex.org/snipdex-opensearch/1.0/">
+  <ShortName>Yahoo</ShortName>
+  <Description>Yahoo! Internet portal provides email, news, shopping, web search, music, fantasy sports, and many more.</Description>
+  <Url type="text/html" template="http://search.yahoo.com/search?p={searchTerms}" snipdex:item_path="//li[./div/div/h3/a]" snipdex:summary_path=".//div[@class='abstr']"/>
+  <Url type="application/x-suggestions+json" template="http://ff.search.yahoo.com/gossip?output=fxjson&amp;command={searchTerms}"/>
+  <snipdex:ForceGeneric>true</snipdex:ForceGeneric>
+</OpenSearchDescription>

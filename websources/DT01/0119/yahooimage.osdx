@@ -1,0 +1,7 @@
+<OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/" xmlns:snipdex="http://www.snipdex.org/snipdex-opensearch/1.0/">
+  <ShortName>Yahoo! Image</ShortName>
+  <Description>Search Y! Images</Description>
+  <Url type="application/rss+xml" template="http://search.yahooapis.com/ImageSearchService/rss/imageSearch.xml?appid=eGM5ACfV34Fb5tOHx.OAlIO76doKdFOyHlItfvE8_ByLNez6RE1C4380UUliomFU3FqQt9e9WKWr&amp;query={searchTerms}"/>
+  <Url type="text/html" template="http://images.search.yahoo.com/search/images;_ylt=A0WTb_7mcUBN3QUAceSLuLkF?p={searchTerms}&amp;ei=utf-8&amp;iscqry=&amp;fr=sfp#filters=none&amp;filtersTray=1&amp;facets=none&amp;facetsTray=none"/>
+  <Query role="hint" searchTerms="image"/>
+</OpenSearchDescription>

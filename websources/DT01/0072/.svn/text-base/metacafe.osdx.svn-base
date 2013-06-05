@@ -1,0 +1,7 @@
+<OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/" xmlns:snipdex="http://www.snipdex.org/snipdex-opensearch/1.0/">
+  <ShortName>Metacafe</ShortName>
+  <Description>Metacafe: Best Videos and Funny Movies</Description>
+  <Url type="application/rss+xml" template="http://www.metacafe.com/tags/{searchTerms}/rss.xml"/>
+  <Url type="text/html" template="http://www.metacafe.com/tags/{searchTerms}/"/>
+  <Query role="hint" searchTerms="video"/>
+</OpenSearchDescription> 

@@ -1,0 +1,7 @@
+<OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/" xmlns:snipdex="http://www.snipdex.org/snipdex-opensearch/1.0/">
+  <ShortName>Google Books</ShortName>
+  <Description>Google's project to digitize the world's books.</Description>
+  <Url type="application/atom+xml" template="http://books.google.com/books/feeds/volumes?q={searchTerms}" snipdex:summary_path="dc:description" snipdex:thumbnail_path="link[contains(@rel, 'thumbnail')]" snipdex:attribute_paths="Author{dc:creator},Date{dc:date},Rating{gd:rating},Category{dc:subject}"/>
+  <Url type="text/html" template="http://www.google.com/search?tbs=bks%3A1&amp;tbo=1&amp;q={searchTerms}&amp;btnG=Search+Books"/>
+  <Query role="hint" searchTerms="book"/>
+</OpenSearchDescription> 

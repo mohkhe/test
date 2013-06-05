@@ -1,0 +1,14 @@
+<OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/" xmlns:snipdex="http://www.snipdex.org/snipdex-opensearch/1.0/">
+        <Image height="16" width="16" type="image/x-icon">http://www.flickr.com/favicon.ico</Image>
+	<ShortName>Flickr</ShortName>
+	<Description>Flickr is almost certainly the best online photo management and sharing application...</Description>
+	<Url type="application/rss+xml" template="http://api.flickr.com/services/feeds/photos_public.gne?tags={searchTerms}&amp;format=rss_200_enc"/>
+	<Url type="text/html" template="http://www.flickr.com/search/?mt=all&amp;adv=1&amp;w=all&amp;q=%22{searchTerms}%22&amp;m=tags"/>
+	<snipdex:PreviewPath>media_thumbnail</snipdex:PreviewPath>
+        <snipdex:RenderHint type="content">image</snipdex:RenderHint>
+        <snipdex:RenderHint type="layout">aggregate</snipdex:RenderHint>
+        <snipdex:QueryHint>flickr</snipdex:QueryHint>
+        <snipdex:QueryHint>image</snipdex:QueryHint>
+        <snipdex:QueryHint>picture</snipdex:QueryHint>
+        <snipdex:QueryHint>photo</snipdex:QueryHint>
+</OpenSearchDescription>

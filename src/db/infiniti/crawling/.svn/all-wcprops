@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/repos/neogeo/!svn/ver/157/neogeo-vacancies/CrawlingTestProj/src/db/infiniti/crawling
+END
+MainClass.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/repos/neogeo/!svn/ver/163/neogeo-vacancies/CrawlingTestProj/src/db/infiniti/crawling/MainClass.java
+END
+DetectDetailedInfoXpathThread.java
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/repos/neogeo/!svn/ver/157/neogeo-vacancies/CrawlingTestProj/src/db/infiniti/crawling/DetectDetailedInfoXpathThread.java
+END
+TestWSCrawler.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/repos/neogeo/!svn/ver/157/neogeo-vacancies/CrawlingTestProj/src/db/infiniti/crawling/TestWSCrawler.java
+END
+CrawlingThread.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/repos/neogeo/!svn/ver/157/neogeo-vacancies/CrawlingTestProj/src/db/infiniti/crawling/CrawlingThread.java
+END
+Crawler.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/repos/neogeo/!svn/ver/163/neogeo-vacancies/CrawlingTestProj/src/db/infiniti/crawling/Crawler.java
+END
+AjaxCrawler.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/repos/neogeo/!svn/ver/161/neogeo-vacancies/CrawlingTestProj/src/db/infiniti/crawling/AjaxCrawler.java
+END
+HarvestingThread.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/repos/neogeo/!svn/ver/157/neogeo-vacancies/CrawlingTestProj/src/db/infiniti/crawling/HarvestingThread.java
+END
+TestWSCrawlingThread.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/repos/neogeo/!svn/ver/157/neogeo-vacancies/CrawlingTestProj/src/db/infiniti/crawling/TestWSCrawlingThread.java
+END

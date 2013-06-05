@@ -1,0 +1,8 @@
+<OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/" xmlns:snipdex="http://www.snipdex.org/snipdex-opensearch/1.0/">
+	<ShortName>SmugSmug</ShortName>
+	<Description>Your photos look better here</Description>
+	<Url type="application/rss+xml" template="http://www.smugmug.com/hack/feed.mg?Type=search&amp;Data={searchTerms}&amp;format=rss200"/>
+	<Url type="text/html" template="http://www.smugmug.com/search/index.mg?searchWords={searchTerms}&amp;searchType=global"/>
+        <Query role="example" searchTerms="puppy"/>
+	<Query role="hint" searchTerms="photo"/>
+ </OpenSearchDescription>

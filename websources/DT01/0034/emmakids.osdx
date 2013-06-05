@@ -1,0 +1,9 @@
+<OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/">
+   <ShortName>Emma Kids</ShortName>
+   <Description>Emma Kinderziekenhuis - Ziekenhuis voor kinderen</Description>
+   <Image height="16" width="16" type="image/x-icon">http://pathfinder.cs.utwente.nl/puppyir/images/favicon.ico</Image>
+   <Url type="application/rss+xml" template="http://pathfinder.cs.utwente.nl/cgi-bin/opensearch/emmakids.cgi?searchQuery={searchTerms}"/>
+   <Url type="text/html" template="http://www.emmakids.nl/zoeken/?searchQuery={searchTerms}"/>
+   <Query role="example" searchTerms="ziek"/>
+</OpenSearchDescription>
+

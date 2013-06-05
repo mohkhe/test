@@ -1,0 +1,6 @@
+<OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/" xmlns:snipdex="http://www.snipdex.org/snipdex-opensearch/1.0/">
+   <ShortName>4Shared</ShortName>
+   <Description>Free File Sharing</Description>
+   <Url type="text/html" template="http://search.4shared.com/q/1/{searchTerms}" snipdex:item_path="//td/table//tr/td[.//h1/a]"/>
+</OpenSearchDescription>
+

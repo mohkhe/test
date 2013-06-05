@@ -1,0 +1,6 @@
+<OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/" xmlns:snipdex="http://www.snipdex.org/snipdex-opensearch/1.0/">
+   <ShortName>AOL</ShortName>
+   <Description>News, Sports, Weather, Entertainment, Local &amp; Lifestyle</Description>
+   <Url type="text/html" template="http://search.aol.com/aol/search?q={searchTerms}" snipdex:item_path="//li[./h3/a[@rel='f:url']]"/>
+</OpenSearchDescription>
+

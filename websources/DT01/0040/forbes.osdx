@@ -1,0 +1,6 @@
+<OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/">
+  <ShortName>Forbes</ShortName>
+  <Description>Information for the World's Business Leaders</Description>
+  <Url type="application/rss+xml" template="http://rss.forbes.com/feed/search/{searchTerms}"/>
+  <Url type="text/html" template="http://search.forbes.com/search/find?tab=searchtabgeneraldark&amp;MT={searchTerms}"/>
+</OpenSearchDescription> 

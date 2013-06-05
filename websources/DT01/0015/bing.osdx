@@ -1,0 +1,8 @@
+<OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/" xmlns:snipdex="http://www.snipdex.org/snipdex-opensearch/1.0/">
+  <ShortName>Bing</ShortName>
+  <Description>Bing is a search engine that finds and organizes the answers you need so you can make faster, more informed decisions.</Description>
+  <Image height="16" width="16" type="image/gif">http://www.bing.com/s/a/rsslogo.gif</Image>
+  <Url type="application/rss+xml" template="http://www.bing.com/search?q={searchTerms}&amp;format=rss"/>
+  <Url type="text/html" template="http://www.bing.com/search?q={searchTerms}"/>
+  <snipdex:ForceGeneric>true</snipdex:ForceGeneric>
+</OpenSearchDescription> 

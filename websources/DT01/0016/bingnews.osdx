@@ -1,0 +1,6 @@
+<OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/">
+  <ShortName>Bing News</ShortName>
+  <Description>Top Stories</Description>
+  <Url type="application/rss+xml" template="http://api.bing.com/rss.aspx?Source=News&amp;Market=en-US&amp;Version=2.0&amp;Query={searchTerms}"/>
+  <Url type="text/html" template="http://www.bing.com/news/search?q={searchTerms}&amp;go=&amp;form=QBNB&amp;qs=n&amp;sk=&amp;sc=8-9"/>
+</OpenSearchDescription> 

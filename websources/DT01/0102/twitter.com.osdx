@@ -1,0 +1,9 @@
+<OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/" xmlns:snipdex="http://www.snipdex.org/snipdex-opensearch/1.0/">
+   <ShortName>Twitter</ShortName>
+   <Description>Twitter is the best way to discover what's new in your world.</Description>
+   <Url type="text/html" template="http://search.twitter.com/search?q={searchTerms}"/>
+   <Url type="application/rss+xml" template="http://search.twitter.com/search.rss?lang=en&amp;q={searchTerms}" snipdex:thumbnail_path="media:content" snipdex:attribute_paths="Author{author},Date{pubDate}"/>
+   <!-- <Url type="application/atom+xml" template="http://search.twitter.com/search.atom?lang=en&amp;q={searchTerms}"/> -->
+   <Query role="hint" searchTerms="news"/>
+</OpenSearchDescription>
+

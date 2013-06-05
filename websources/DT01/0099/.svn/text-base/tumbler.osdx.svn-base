@@ -1,0 +1,6 @@
+<OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/" xmlns:snipdex="http://www.snipdex.org/snipdex-opensearch/1.0/">
+   <ShortName>Tumblr</ShortName>
+   <Description>Tumblr lets you effortlessly share anything. Post text, photos, quotes, links, music, and videos, from your browser, phone, desktop, email, or wherever you happen to be.</Description>
+   <Url type="text/html" template="http://www.tumblr.com/tagged/{searchTerms}" snipdex:item_path="//li[./div/a]" snipdex:title_path=".//div[@class='post_info']/a" snipdex:link_path=".//div[@class='post_info']/a/@href"/>
+</OpenSearchDescription>
+

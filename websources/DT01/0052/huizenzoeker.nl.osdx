@@ -1,0 +1,8 @@
+<OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/" xmlns:snipdex="http://www.snipdex.org/snipdex-opensearch/1.0/">
+  <ShortName>HuizenZoeker</ShortName>
+  <Description>doorzoekt alle huizensites</Description>
+  <Url type="application/rss+xml" template="http://www.huizenzoeker.nl/rss/koop/nederland/?q={searchTerms}&amp;strl=0&amp;pv=0&amp;pt=&amp;x=44&amp;y=15&amp;s=f"/>
+  <Url type="text/html" template="http://www.huizenzoeker.nl/koop/nederland/?q={searchTerms}&amp;strl=0&amp;pv=0&amp;pt=&amp;x=44&amp;y=15&amp;s=f"/>
+  <Query role="example" searchTerms="enschede"/>
+  <Query role="hint" searchTerms="huis"/>
+</OpenSearchDescription>

@@ -1,0 +1,43 @@
+package db.infiniti.srf;
+
+import java.io.File;
+import java.io.IOException;
+
+import org.apache.commons.io.FileUtils;
+import org.openqa.selenium.OutputType;
+import org.openqa.selenium.TakesScreenshot;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
+
+public class ScreenShots {
+
+	WebDriver driver = new FirefoxDriver();
+	
+	public void captureSc(String url, String savePath) {
+
+	    
+/*	    WebDriver driver = new FirefoxDriver();
+	 //   driver.get("http://www.google.com/");
+	    try {
+	        WebDriver augmentedDriver = new Augmenter().augment(driver);
+	        File source = ((TakesScreenshot)augmentedDriver).getScreenshotAs(OutputType.FILE);
+	        path = "./target/screenshots/" + source.getName();
+	        FileUtils.copyFile(source, new File(path)); 
+	    }
+	    catch(IOException e) {
+	        path = "Failed to capture screenshot: " + e.getMessage();
+	    }
+	    return path;*/
+
+	    //WebDriver driver = new FirefoxDriver();
+	    driver.get(url); //"http://www.google.com/"
+	    File scrFile = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
+	    // Now you can do whatever you need to do with it, for example copy somewhere
+	    try {
+			FileUtils.copyFile(scrFile, new File(savePath+"_sc.png"));
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+	}
+}

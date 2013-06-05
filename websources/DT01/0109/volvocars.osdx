@@ -1,0 +1,6 @@
+<OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/" xmlns:snipdex="http://www.snipdex.org/snipdex-opensearch/1.0/">
+  <ShortName>Volvo Cars</ShortName>
+  <Description>Volvo Car Corporation - Volvo Cars International Site</Description>
+  <Url type="text/html" method="get" template="http://www.volvocars.com/intl/pages/search.aspx?q={searchTerms}" snipdex:item_path="//li[./div/h2/a]" snipdex:summary_path=".//blockquote"/>
+  <Query role="hint" searchTerms="car"/>
+</OpenSearchDescription>

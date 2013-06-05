@@ -1,0 +1,8 @@
+<OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/" xmlns:snipdex="http://www.snipdex.org/snipdex-opensearch/1.0/">
+  <ShortName>Getty Images</ShortName>
+  <Description>Stock Photography, Editorial Photos, Footage and Music</Description>
+  <Url type="application/rss+xml" template="http://www.gettyimages.com/search/piclens.rss?contractUrl=2&amp;language=en-US&amp;family=creative&amp;p={searchTerms}&amp;assetType=image"/>
+  <Url type="text/html" template="http://www.gettyimages.com/Search/Search.aspx?contractUrl=2&amp;language=en-US&amp;family=creative&amp;p={searchTerms}&amp;assetType=image"/>
+        <Query role="hint" searchTerms="image"/>
+        <Query role="hint" searchTerms="photo"/>
+</OpenSearchDescription>

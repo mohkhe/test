@@ -1,0 +1,8 @@
+<OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/"  xmlns:snipdex="http://www.snipdex.org/snipdex-opensearch/1.0/">
+  <ShortName>OpenClipArt</ShortName>
+  <Description>an archive of clip art that can be used for free for any use</Description>
+ <Image height="16" width="16" type="image/x-icon">http://www.openclipart.org/assets/images/favicon.ico</Image>
+  <Url type="application/rss+xml" template="http://openclipart.org/media/feed/rss/{searchTerms}"/>
+  <Url type="text/html" template="http://openclipart.org/search/?query={searchTerms}"/>
+  <Query role="hint" searchTerms="image"/>
+</OpenSearchDescription> 

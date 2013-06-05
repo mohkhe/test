@@ -1,0 +1,7 @@
+<OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/"  xmlns:snipdex="http://www.snipdex.org/snipdex-opensearch/1.0/">
+  <ShortName>Photobucket</ShortName>
+  <Description>Capture Forever. Share Today.</Description>
+  <Url type="application/rss+xml" template="http://feed.photobucket.com/images/{searchTerms}/feed.rss"/>
+  <Url type="text/html" template="http://photobucket.com/images/{searchTerms}/"/>
+  <Query role="hint" searchTerms="image"/>
+</OpenSearchDescription>

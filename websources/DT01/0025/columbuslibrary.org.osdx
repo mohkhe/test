@@ -1,0 +1,7 @@
+<OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/" xmlns:snipdex="http://www.snipdex.org/snipdex-opensearch/1.0/"> 
+  <ShortName>Columbus Library</ShortName>
+  <Description>Columbus Metropolitan Library</Description>
+  <Url type="text/html" method="get" template="http://catalog.columbuslibrary.org/?q=ex-All-0.0:%22{searchTerms}%22"/>
+  <Url type="application/rss+xml" method="get" template="http://catalog.columbuslibrary.org/rss.ashx?q=ex-All-0.0:%22{searchTerms}%22&amp;uilang=en"/>
+  <Query role="hint" searchTerms="book"/> 
+</OpenSearchDescription>

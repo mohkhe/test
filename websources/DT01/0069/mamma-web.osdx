@@ -1,0 +1,6 @@
+<OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/" xmlns:snipdex="http://www.snipdex.org/snipdex-opensearch/1.0/">
+   <ShortName>Mamma.com</ShortName>
+   <Description>The Mother of All Search Engines</Description>
+   <Url type="text/html" template="http://www.mamma.com/result.php?type=web&amp;q={searchTerms}" snipdex:item_path="//td/div/div[./div/div/a]"/>
+</OpenSearchDescription>
+

@@ -1,0 +1,6 @@
+<OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/">
+  <ShortName>Icerocket Blogs</ShortName>
+  <Description>real-time search</Description>
+  <Url type="application/rss+xml" template="http://www.icerocket.com/search?tab=blog&amp;q={searchTerms}&amp;rss=1"/>
+  <Url type="text/html" template="http://www.icerocket.com/search?tab=blog&amp;q={searchTerms}"/>
+</OpenSearchDescription> 

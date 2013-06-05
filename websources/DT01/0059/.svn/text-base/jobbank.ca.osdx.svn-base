@@ -1,0 +1,7 @@
+<OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/">
+  <ShortName>Job Bank</ShortName>
+  <Description>Service Canada</Description>
+  <Image height="16" width="16" type="image/x-icon">http://www.jobsetc.gc.ca/favicon.ico</Image>
+  <Url type="application/rss+xml" template="http://www.jobsetc.gc.ca/toolbox/job_search/jobSearchRSS.do?action=&amp;pc=0&amp;nc=0&amp;l=EN&amp;searchstring={searchTerms}&amp;andor=AND&amp;scope=AllField&amp;selectedNOCGroup=-1&amp;selectedNOCs=-1&amp;province=0&amp;button.submit=Create+RSS+Search"/>
+  <Url type="text/html" template="http://www.jobbank.gc.ca/res-eng.aspx?Keyword={searchTerms}&amp;OfferpPage=10&amp;Student=No"/>
+</OpenSearchDescription>

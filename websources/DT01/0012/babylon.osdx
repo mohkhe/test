@@ -1,0 +1,5 @@
+<OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/" xmlns:snipdex="http://www.snipdex.org/snipdex-opensearch/1.0/">
+  <ShortName>Babylon</ShortName>
+  <Description>Babylon 9: Simply Translate. Simple One-click Translation in any Application</Description>
+  <Url type="text/html" template="http://search.babylon.com/?q={searchTerms}" snipdex:item_path="//div[@id='web']/div[./span/a]"/>
+</OpenSearchDescription> 

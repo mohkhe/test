@@ -1,0 +1,8 @@
+ <OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/">
+   <ShortName>eScholarship</ShortName>
+   <Description>University of California</Description>
+   <Url type="application/rss+xml" template="http://escholarship.org/uc/search?keyword={searchTerms};docsPerPage=10;rmode=rss;sort=relevance"/>
+   <!-- weird parse errors in Snipdex and in Firefox... -->
+   <Url type="text/html" template="http://escholarship.org/uc/search?keyword={searchTerms}"/>
+ </OpenSearchDescription>
+

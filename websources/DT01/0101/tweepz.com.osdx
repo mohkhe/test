@@ -1,0 +1,8 @@
+<OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/" xmlns:snipdex="http://www.snipdex.org/snipdex-opensearch/1.0/">
+   <ShortName>Tweepz</ShortName>
+   <Description>Tweepz.com - search, find and discover interesting people on Twitter.</Description>
+   <Image height="16" width="16" type="image/x-icon">http://tweepz.com/images/favicon.ico</Image>
+   <Url type="text/html" template="http://tweepz.com/search?q={searchTerms}" snipdex:item_path="//div[./div/div/div/strong/a]" snipdex:thumbnail_path="(.//img)[1]"/>
+   <Query role="example" searchTerms="jansen"/>
+</OpenSearchDescription>
+

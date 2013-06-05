@@ -1,0 +1,6 @@
+<OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/" xmlns:snipdex="http://www.snipdex.org/snipdex-opensearch/1.0/">
+  <ShortName>Nature</ShortName>
+  <Description>The world's best science and medicine on your desktop</Description>
+  <Url type="application/rss+xml" template="http://www.nature.com/opensearch/request?interface=sru&amp;query=dc.title+%3D+%22{searchTerms}%22&amp;httpAccept=application%2Frss%2Bxml&amp;maximumRecords=10&amp;startRecord=1&amp;recordPacking=packed&amp;sortKeys=%2Cpam%2C0"/>
+  <Url type="text/html" template="http://www.nature.com/search/executeSearch?sp-advanced=true&amp;include-collections=journals_nature%2Ccrawled_content&amp;exclude-collections=journals_palgrave%2Clab_animal&amp;sp-m=0&amp;siteCode=default&amp;sp-q=&amp;sp-p=all&amp;sp-q-2=&amp;sp-p-2=all&amp;sp-q-3={searchTerms}&amp;sp-p-3=all&amp;sp-q-4=&amp;sp-q-5=&amp;sp-q-6=&amp;sp-q-10=&amp;sp-q-11=&amp;sp-q-12=&amp;sp-start-month=&amp;sp-start-year=&amp;sp-end-month=&amp;sp-end-year=&amp;sp-date-range=0&amp;sp-q-8=&amp;sp-s=&amp;sp-c=10"/>
+</OpenSearchDescription>

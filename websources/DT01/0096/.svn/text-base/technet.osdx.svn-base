@@ -1,0 +1,7 @@
+<OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/"> 
+  <ShortName>Technet</ShortName>
+  <Description>Microsoft TechNet: Resources for IT Professionals</Description>
+  <Image height="16" width="16" type="image/x-icon">http://technet.microsoft.com/favicon.ico</Image>
+  <Url type="application/rss+xml" template="http://social.technet.microsoft.com/Search/en-US/feed?format=RSS&amp;Query={searchTerms}"/>
+  <Url type="text/html" template="http://social.technet.microsoft.com/Search/en-US?query=android&amp;ac=8"/>
+</OpenSearchDescription>

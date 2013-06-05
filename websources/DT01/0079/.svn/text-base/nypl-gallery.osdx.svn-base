@@ -1,0 +1,7 @@
+<OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/" xmlns:snipdex="http://www.snipdex.org/snipdex-opensearch/1.0/">
+  <ShortName>NYPL Digital Gallery</ShortName>
+  <Description>New York Public Library</Description>
+  <Url type="application/rss+xml" template="http://digitalgallery.nypl.org/feeds/dev/rss2/?word={searchTerms}&amp;size=760&amp;imgs=20&amp;title_type=short"/>
+  <Url type="text/html" template="http://digitalgallery.nypl.org/nypldigital/dgkeysearchresult.cfm?keyword={searchTerms}"/>
+  <Query role="hint" searchTerms="image"/>
+</OpenSearchDescription>

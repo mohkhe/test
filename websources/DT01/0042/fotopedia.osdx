@@ -1,0 +1,8 @@
+<OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/" xmlns:snipdex="http://www.snipdex.org/snipdex-opensearch/1.0/">
+	<ShortName>Fotopedia</ShortName>
+	<Description>The first collaborative photo encyclopedia</Description>
+	<Url type="application/atom+xml" template="http://www.fotopedia.com/search/page/all?q={searchTerms}&amp;domain=fotopedia&amp;sort=relevance&amp;format=atom"/>
+	<Url type="text/html" template="http://www.fotopedia.com/search/albums/all?q={searchTerms}&amp;domain=fotopedia&amp;sort=relevance"/>
+        <Query role="hint" searchTerms="image"/>
+        <Query role="hint" searchTerms="photo"/>
+</OpenSearchDescription>

@@ -1,0 +1,9 @@
+<OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/" xmlns:snipdex="http://www.snipdex.org/snipdex-opensearch/1.0/">
+   <ShortName>Amazon</ShortName>
+   <Description>Online Shopping for Electronics, Apparel, Computers, Books, DVDs &amp; more</Description>
+   <Url type="text/html" template="http://www.amazon.com/s/ref=nb_sb_noss?field-keywords={searchTerms}" snipdex:item_path="//div[./div/div[contains(@class,'store')]/a]" snipdex:title_path="(.//a)[2]" snipdex:link_path="(.//a)[2]/@href" snipdex:thumbnail_path="(.//img)[1]" snipdex:attribute_paths="Price{.//div[@class='newPrice']/span[@class='price']},Rating{.//div[@class='stars']/div/a/@alt}"/> 
+   <Query role="example" searchTerms="tablet" />
+   <Query role="hint" searchTerms="book" />
+   <Query role="hint" searchTerms="shopping" />
+</OpenSearchDescription>
+

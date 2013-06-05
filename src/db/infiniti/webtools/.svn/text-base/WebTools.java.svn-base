@@ -1,0 +1,66 @@
+package db.infiniti.webtools;
+
+import java.io.IOException;
+import java.net.MalformedURLException;
+import java.net.SocketException;
+import java.util.logging.Level;
+
+import NoHtmlUnitWarning.QuietCssErrorHandler;
+import NoHtmlUnitWarning.SilentIncorrectnessListener;
+
+import com.gargoylesoftware.htmlunit.FailingHttpStatusCodeException;
+import com.gargoylesoftware.htmlunit.WebClient;
+import com.gargoylesoftware.htmlunit.html.HtmlPage;
+
+public class WebTools {
+
+	HtmlPage page = null;
+	WebClient webClient;
+	
+	public WebTools() {
+		super();
+		webClient = new WebClient();
+		webClient.setIncorrectnessListener(new SilentIncorrectnessListener());
+		webClient.setCssErrorHandler(new QuietCssErrorHandler());
+		webClient.setCssEnabled(false);
+		webClient.setThrowExceptionOnFailingStatusCode(false);
+		webClient.setThrowExceptionOnScriptError(false);
+		// webClient.throwFailingHttpStatusCodeExceptionIfNecessary(null);
+		java.util.logging.Logger.getLogger("com.gargoylesoftware").setLevel(
+				Level.OFF);
+		java.util.logging.Logger.getLogger("com.gargoylesoftware.htmlunit")
+				.setLevel(Level.OFF);
+		java.util.logging.Logger.getLogger(
+				"com.gargoylesoftware.htmlunit.javascript").setLevel(Level.OFF);
+		java.util.logging.Logger
+				.getLogger(
+						"com.gargoylesoftware.htmlunit.javascript.host.html.HTMLElement")
+				.setLevel(Level.OFF);
+		java.util.logging.Logger
+				.getLogger(
+						"com.gargoylesoftware.htmlunit.javascript.host.html.HTMLElement.jsxGet_spellcheck()")
+				.setLevel(Level.OFF);
+	}
+
+	/**
+	 * @param url
+	 * @return it also increases the number of crawl queries
+	 */
+	public HtmlPage getThePage(String url) {
+
+		// url = url.replace("the", "hi");
+		try {
+			page = webClient.getPage(url);
+/*			crawlReport.incNoCrawlingQueries();
+*/		} catch (FailingHttpStatusCodeException e) {
+			e.printStackTrace();
+		} catch (MalformedURLException e) {
+			e.printStackTrace();
+		} catch (IOException e) {
+			e.printStackTrace();
+		}/*catch (SocketException e){
+			e.printStackTrace();
+		}*/
+		return page;
+	}
+}

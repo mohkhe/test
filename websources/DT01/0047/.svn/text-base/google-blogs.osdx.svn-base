@@ -1,0 +1,10 @@
+<OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/" xmlns:snipdex="http://www.snipdex.org/snipdex-opensearch/1.0/">
+  <ShortName>Google Blogs</ShortName>
+  <Description>Google Blog Search allows users to find blogs on favorite topics.</Description>
+  <Url type="application/atom+xml" template="http://www.google.com/search?q={searchTerms}&amp;hl=en&amp;tbm=blg&amp;output=atom" snipdex:summary_path="content"/>
+  <Url type="text/html" template="http://www.google.com/search?q={searchTerms}"/>
+  <!-- hl=en hl={language} -->
+  <snipdex:SummaryPath>content</snipdex:SummaryPath>
+  <Query role="hint" searchTerms="blogs"/>
+  <Query role="hint" searchTerms="blog"/>
+</OpenSearchDescription> 

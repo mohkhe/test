@@ -1,0 +1,8 @@
+<OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/" xmlns:snipdex="http://www.snipdex.org/snipdex-opensearch/1.0/">
+<ShortName>Blip.tv</ShortName>
+<Description>We're the next generation television network.</Description>
+<Url type="text/html" template="http://www.blip.tv/search?q={searchTerms}"/>
+<Url type="application/rss+xml" template="http://blip.tv/rss?search={searchTerms};page=1;s=search"/>
+<Query role="hint" searchTerms="video"/>
+</OpenSearchDescription>
+

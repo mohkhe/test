@@ -1,0 +1,8 @@
+<OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/" xmlns:snipdex="http://www.snipdex.org/snipdex-opensearch/1.0/">
+   <ShortName>Identi.ca</ShortName>
+   <Description>Identi.ca is a micro-blogging service based on the Free Software StatusNet tool.</Description>
+   <Url type="text/html" template="http://identi.ca/search/notice?q=twente&amp;search=Zoeken"/>
+   <Url type="application/rss+xml" template="http://identi.ca/search/notice/rss?q={searchTerms}" snipdex:title_path="description" snipdex:summary_path="title" snipdex:thumbnail_path="statusnet:postIcon/@rdf:resource" snipdex:attribute_paths="Author{dc:creator},Date{dc:date}"/>
+   <Query role="hint" searchTerms="news"/>
+</OpenSearchDescription>
+
